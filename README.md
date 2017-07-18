@@ -8,6 +8,7 @@ https://github.com/lijinma/wechat_spider
 
 
 1、创建数据表
+```bash
 CREATE TABLE `cms_weixin_mp_posts` (
   `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
   `article_title` varchar(255) DEFAULT NULL,
@@ -33,8 +34,12 @@ CREATE TABLE `cms_weixin_mp_posts` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8 COMMENT='采集微信文章';
 
+```
+
 2、安装
+```bash
 npm install wechat_spider_mysql -g
+```
 
 3、启动
 在命令行输入
@@ -49,6 +54,9 @@ wechat_spider_mysql
 会自动跳转下一篇文章，但是会遇到文章被删除，被举报等，代码就跑不动了，所以得调试，得有耐心
 这样太麻烦，所以我用php去采集文章页，但是这样就采集不到点赞数
 
+## 打赏
+如果这个小工具对你有帮助，你可以请我喝杯咖啡，谢谢 :)
+![](http://ofh9pu5l3.bkt.clouddn.com/wechat_pay.png)
 
 
 
