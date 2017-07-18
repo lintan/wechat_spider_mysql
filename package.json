@@ -1,0 +1,37 @@
+{
+  "name": "wechat_spider_mysql",
+  "version": "1.0.21",
+  "description": "Wechat Spider",
+  "main": "index.js",
+  "dependencies": {
+    "anyproxy": "^3.10.3",
+    "commander": "^2.9.0",
+    "mysql": "^2.13.0",
+    "sequelize": "^3.30.4",
+    "cheerio": "^1.0.0-rc.2",
+    "silly-datetime": "^0.1.2"
+  },
+  "bin": {
+    "wechat_spider_mysql": "./bin/wechat_spider_mysql"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "wechat_spider_mysql",
+    "wechat",
+    "mp",
+    "spider"
+  ],
+  "author": "linmingtan",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lintan/wechat_spider_mysql.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lintan/wechat_spider_mysql/issues"
+  },
+  "homepage": "https://github.com/lintan/wechat_spider_mysql#readme"
+}

@@ -1,0 +1,16 @@
+#!/usr/bin/env node
+
+var program = require('commander');
+var pkg = require('../package.json');
+
+var argValue = '';
+program
+  .version(pkg.version)
+  .action(function (arg) {
+    argValue = arg
+  })
+  .parse(process.argv);
+
+
+  var proxy = require('..');
+  proxy();
