@@ -66,6 +66,8 @@ wechat_spider_mysql
 ![](http://ofh9pu5l3.bkt.clouddn.com/lintan.png)
 
 
+## LICENSE
 
+MIT.
 
 
