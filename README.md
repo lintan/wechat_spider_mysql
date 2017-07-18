@@ -44,6 +44,9 @@ CREATE TABLE `cms_weixin_mp_posts` (
 npm install wechat_spider_mysql -g
 ```
 
+进入安装好的目录，找到mysql.js 修改mysql账号密码
+
+
 3、启动
 在命令行输入
 ```bash
