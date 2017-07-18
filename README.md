@@ -37,13 +37,18 @@ CREATE TABLE `cms_weixin_mp_posts` (
 ```
 
 2、安装
+
+前提是你安装好了node环境
+
 ```bash
 npm install wechat_spider_mysql -g
 ```
 
 3、启动
 在命令行输入
+```bash
 wechat_spider_mysql
+```
 
 4、设置手机代理
 
