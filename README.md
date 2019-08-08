@@ -1,4 +1,4 @@
-# wechat_spider_mysql
+# wechat_spider_mysql采集微信公众号文章
 
 基于anyproxy，在lijinma的wechat_spider上改的，感谢@lijinma
 https://github.com/lijinma/wechat_spider
@@ -66,7 +66,7 @@ wechat_spider_mysql
 如果这个小工具对你有帮助，你可以请我喝杯咖啡，谢谢 :)
 
 
-![](http://ofh9pu5l3.bkt.clouddn.com/lintan.png)
+![](http://static.umaske.com/IMG_7051.JPG)
 
 
 ## LICENSE
