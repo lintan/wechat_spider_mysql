@@ -7,7 +7,7 @@
     "anyproxy": "^3.10.3",
     "commander": "^2.9.0",
     "mysql": "^2.13.0",
-    "sequelize": "^3.30.4",
+    "sequelize": "^5.21.2",
     "cheerio": "^1.0.0-rc.2",
     "silly-datetime": "^0.1.2"
   },
